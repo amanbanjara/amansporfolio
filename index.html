@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aman Kumar's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav ul li {
+            margin: 0 1em;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        #about, #projects, #contact {
+            padding: 2em;
+            margin: 2em;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .project {
+            margin-bottom: 2em;
+            text-align: left;
+        }
+        footer {
+            text-align: center;
+            padding: 0.5em;
+            background-color: #0073e6;
+            color: white;
+        }
+        .profile-img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1em;
+            transition: transform 0.3s ease-in-out;
+            cursor: pointer;
+        }
+        .profile-img.zoomed {
+            transform: scale(2);
+        }
+        .about-text {
+            /* display: flex;
+            flex-direction: column; */
+            align-items: center;
+            text-align: left;
+        }
+        .about-text p {
+            /* max-width: 600px;
+            text-align: justify; */
+            text-align: left;
+        }
+        .center{
+             display: flex;
+             justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aman Kumar</h1>
+        <p>Freelancer in Graphic Designing, Front-end Web Development, Video Editing, and Photoshop</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-text">
+            <div class="center">
+            <img src="./formal.png" alt="Aman Kumar" class="profile-img" id="profileImg"> </div>
+            <p>Hello! I'm Aman Kumar, a passionate technology enthusiast and dedicated professional with a strong background in Computer Science and Information Technology. I graduated from IET DAVV College in 2020 with a degree in Computer Science and completed a diploma in Information Technology in 2017. My academic journey equipped me with a solid foundation in technical skills and a keen interest in emerging technologies.</p>
+            <p>From 2021 to 2024, I worked as a freelancer, gaining extensive experience in various domains such as graphic designing, front-end web development, video editing, and Photoshop. These years honed my creative and technical skills, allowing me to deliver high-quality projects that meet client needs and expectations.</p>
+            <p>One of my notable projects is the <strong>Book Rental System</strong>, a platform that enables users to rent and borrow books seamlessly. This project combines my technical expertise with my passion for creating user-friendly solutions. Another significant project is the <strong>Home Automation IoT</strong> system, which allows users to control home devices like fans and lights through IoT technology, reflecting my interest in smart home innovations.</p>
+            <p>I am always eager to learn and explore new technologies, staying updated with the latest trends and advancements in the tech world. My goal is to continue developing innovative solutions that enhance everyday life and contribute to the ever-evolving field of technology.</p>
+            <p>If you'd like to collaborate or learn more about my work, feel free to reach out to me at <a href="mailto:amansinghbanjara@gmail.com">amansinghbanjara@gmail.com</a>. Let's create something amazing together!</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Book Rental System</h3>
+            <p>The Book Rental System is a web-based application designed to facilitate the exchange of books between users. This platform enables users to list their books for rent, browse available books, and borrow books from others. Key features of the project include:</p>
+            <ul>
+                <li><strong>User Registration and Authentication:</strong> Secure user registration and login system to ensure only authorized users can access the platform.</li>
+                <li><strong>Book Listing:</strong> Users can list their books for rent, including details such as title, author, genre, condition, and rental price.</li>
+                <li><strong>Search and Browse:</strong> Advanced search functionality to allow users to find books based on various criteria such as title, author, genre, and availability.</li>
+                <li><strong>Rental Management:</strong> Users can manage their rental requests, view rental history, and track the status of their borrowed and lent books.</li>
+                <li><strong>Rating and Reviews:</strong> Users can rate and review the books they have borrowed, providing feedback for other users.</li>
+                <li><strong>Notifications:</strong> Automated email and in-app notifications to keep users informed about rental requests, due dates, and other important updates.</li>
+            </ul>
+            <p>This project showcases my ability to develop a full-fledged web application, incorporating various technologies and frameworks. It highlights my skills in front-end and back-end development, database management, and user experience design. The Book Rental System not only demonstrates my technical expertise but also my passion for creating solutions that promote sharing and community engagement.</p>
+        </div>
+        <div class="project">
+            <h3>Home Automation IoT</h3>
+            <p>The Home Automation IoT project is an innovative solution designed to bring convenience and efficiency to modern homes by leveraging Internet of Things (IoT) technology. This system allows users to control various home devices remotely, enhancing the functionality and user experience of their living spaces. Key features of the project include:</p>
+            <ul>
+                <li><strong>Device Control:</strong> Users can control home devices such as lights, fans, and thermostats through a user-friendly mobile or web application.</li>
+                <li><strong>Remote Access:</strong> The system enables remote access, allowing users to manage their home devices from anywhere with an internet connection.</li>
+                <li><strong>Automation Schedules:</strong> Users can set schedules to automate the operation of their devices, such as turning lights on and off at specific times or adjusting the thermostat based on daily routines.</li>
+                <li><strong>Voice Control Integration:</strong> Integration with popular voice assistants (like Amazon Alexa and Google Assistant) allows users to control their devices using voice commands.</li>
+                <li><strong>Energy Monitoring:</strong> The system includes energy monitoring features to help users track and optimize their energy consumption, contributing to a more sustainable lifestyle.</li>
+                <li><strong>Security Features:</strong> The system supports security features like real-time alerts and monitoring, enhancing the safety of the home.</li>
+                <li><strong>User-Friendly Interface:</strong> The intuitive interface ensures that users of all technical levels can easily navigate and utilize the system’s features.</li>
+            </ul>
+            <p>This project highlights my expertise in IoT technology, software development, and user experience design. It demonstrates my ability to integrate hardware and software components to create a seamless and functional system. The Home Automation IoT project reflects my commitment to developing innovative solutions that improve everyday life and contribute to the growing field of smart home technology.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:amansinghbanjara@gmail.com">amansinghbanjara@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Aman Kumar</p>
+    </footer>
+
+    <script>
+        document.getElementById('profileImg').addEventListener('click', function() {
+            this.classList.toggle('zoomed');
+        });
+    </script>
+</body>
+</html>
