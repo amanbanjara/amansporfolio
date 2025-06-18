@@ -5,7 +5,7 @@ Welcome to my **Personal Educational Portfolio** — a web-based project built u
 This project acts as a digital resume and a portfolio designed to highlight my journey, strengths, and accomplishments in a visually engaging and responsive format.
  
 ## 🛠️ Tech Stack 
-
+ 
 - **HTML5** – Structure and layout of the website  
 - **CSS3** – Styling and animations  
 - **JavaScript** – Interactive components and behavior  
