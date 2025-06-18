@@ -9,7 +9,7 @@ This project acts as a digital resume and a portfolio designed to highlight my j
 - **HTML5** – Structure and layout of the website  
 - **CSS3** – Styling and animations  
 - **JavaScript** – Interactive components and behavior  
-
+ 
 ## 📂 Features
 
 ✅ Clean and modern design  
