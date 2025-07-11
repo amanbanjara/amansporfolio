@@ -1,5 +1,5 @@
 # 🎓 My Personal Educational Portfolio   
-  
+   
 Welcome to my **Personal Educational Portfolio** — a web-based project built using **HTML**, **CSS**, and **JavaScript** to showcase my academic background, skills, projects, certifications, and more.
 
 This project acts as a digital resume and a portfolio designed to highlight my journey, strengths, and accomplishments in a visually engaging and responsive format.
